@@ -5,7 +5,8 @@ end
 
 def summon_captain_planet(array)
   answer = []
-  array.map {|element| answer << ""
+  array.map {|element| answer << "#{element.capitalize}!"
+  answer
 end
 
 def long_planeteer_calls# code an argument here
